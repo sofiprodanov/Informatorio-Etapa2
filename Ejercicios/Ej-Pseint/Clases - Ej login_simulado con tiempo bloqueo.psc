@@ -5,10 +5,11 @@ Algoritmo login_simulado
 	tiempobloqueo = 10 // tiempo de bloqueo en segundos
     
     Mientras intentos > 0 Hacer
-		//pide ingreso de usuario -> admin  contraseña -> dificil123 &
+		//pide ingreso de usuario -> admin  contraseï¿½a -> dificil123 &
         Escribir 'Ingrese su Usuario:'
         Leer usuario
-        Escribir 'Ingrese su Contraseña:'
+        
+        Escribir 'Ingrese su Contraseï¿½a:'
         Leer contrasenia
         
         // validacion
@@ -16,7 +17,7 @@ Algoritmo login_simulado
             Escribir 'Login exitoso. Bienvenido!'
             intentos = 0
         SiNo
-            Escribir 'Usuario o contraseña incorrectos!'
+            Escribir 'Usuario o contraseï¿½a incorrectos!'
             intentos =  intentos - 1
 			Escribir "Le quedan " intentos " intentos."
 			     // Si agota los 3 intentos + simula tiempo de espera

@@ -36,3 +36,16 @@ for i in range(1, 6):
     print(i)
 
 
+#TIPOS DE DATOS
+lista = [1, 2, 3, "aca va un texto, True"]
+print(lista)
+
+tupla = (1, 2, 3, "aca va un texto, True")
+print(tupla)
+
+diccionario = {
+    "clave": "valor",
+    "numero": 10,
+    "bool": True
+}
+print(diccionario)
