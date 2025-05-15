@@ -26,35 +26,31 @@ caja3 = 789
 #Esta funcion es: type()
 
 variable1 = "Esto es un contenido de tipo str."
+print (variable1)
 print (type (variable1))
 
 variable2 = 123456
+print(variable2)
 print (type (variable2))
 
 variable3 = 4.351
+print(variable3)
 print (type (variable3))
 
 variable4 = True
+print(variable4)
 print (type (variable4))
 
 variable5 = False
+print(variable5)
 print (type (variable5))
 
 #Se ejecuta indicando en la terminal "python nombre_del_archivo.py" o desde el simbolo "Play".
+#Si no te encontras dentro del directorio, en la consola se completa con "py + ruta donde se encuentra el archivo"
+#La ruta del archivo se puede copiar desde VSC dando clic derecho sobre el archivo y seleccionando la opcion "Copiar ruta de acceso o copy path"
+#(borrando el nombre del archivo al pegarlo en la consola)
 
 # PALABRAS RESERVADAS:
 # False - True // None // __peg_parser__ // and // as //assert // async // await // break - continue // class // def // del // except // finally // from //
 # if - else - elif - while - for // global // import // in // is / lambda // nonlocal // not // or // pass // raise // return // try // with // yield //
-
-# USO DE OPERADORES:
-# --> OPERADORES MATEMATICOS: suma (+), resta (-), division (/ o //), multiplicacion (*), modulo/orcentaje (%), potencia (**).
-# --> OPERADORES DE COMPARACION: mayor/menor que (>/<), mayor/menor o igual que (>=/<=), igual (==), distinto (!=).
-# --> OPERADORES LOGICOS: and, or, not, concatenacion, multiplicacion, mezcla.
-# Ej. and: a = true, b = true, x = a AND b --> True (devuelte true si ambos valores son true, en cualquier otro caso es false)
-# # Ej. or: a = true, b = true, x = a OR b --> True  // a = true, b = flase, x = a OR b --> True (cambia el valor de verdad de la variable a la que se
-# aplica la operacion)
-# Ej. not: a = true, x = NOT a --> False (cambia el valor de verdad de la variable a la que se aplica la operacion)
-# Ej. concatenacion:  "Hola" + "mundo" --> Hola mundo.
-# Ej. multiplicacion:  3 * "hola" --> HolaHolaHola.
-# Ej. mezcla:  3 * "Hola" + "mundo" --> HolaHolaHola mundo.
 
