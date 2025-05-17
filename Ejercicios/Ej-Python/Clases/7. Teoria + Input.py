@@ -34,7 +34,7 @@ print (type(numero))
 
 print("Parte 4")
 # Los tipos de datos se almacenen por defecto con la funcion "input()" van a ser delt ipo "str", sin embargo,
-#este tipo de dato puede ser convertido y, si ser vuelve a usar "input()" nuevamente a lo largo de la ejecucion
+#este tipo de dato puede ser convertido y, si se vuelve a usar "input()" nuevamente a lo largo de la ejecucion
 #del programa con la misma variable, esta va a volver a adoptar el tipo de dato "str".
 # Para solucionar un posible error y que no se "rompa" el codigo, en el caso que necesitemos que el usuario
 #ingrese solo numeros podemos usar los comandos "try-except", donde nos vamos a ahorrar la linea de conversion
