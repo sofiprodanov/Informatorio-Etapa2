@@ -7,7 +7,6 @@ Algoritmo Conexion_Internet
 	
 	conexion_activa = Falso
 	verificarconexion = Falso
-
 	
 	Mientras conexion_activa = Falso Hacer
 		Escribir "¿Se verifico la conexion?"

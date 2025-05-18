@@ -5,7 +5,6 @@ Algoritmo Lectura_Libro
 	Definir pagina_actual, paginas_total Como Entero
 	pagina_actual = 1
 	
-	
 	Escribir "Total de paginas del libro: "
 	Leer paginas_total
 	
