@@ -1,5 +1,8 @@
 Algoritmo merienda
 	
+	//3. Elabore un algoritmo para representar la acción de servir la merienda. El comensal puede tomar té, café, café con leche, té con leche
+	//y puede o no ponerle azúcar, si le pone puede ponerle una, dos o tres cucharadas.
+	
 	Definir bebida Como Caracter
 	Definir op, azucar Como Entero
 	

@@ -22,12 +22,17 @@ Algoritmo votaciones
 	
 	total_votos = p1 + p2 + p3 + p4 + indecisos
 	
-	p1pond = (p1 * total_votos)/100
-	p2pond = (p2 * total_votos)/100
-	p3pond = (p3 * total_votos)/100
-	p4pond = (p4 * total_votos)/100
-	p5pond = (p5 * total_votos)/100
-	indecisospond = (indecisos * total_votos)/100
+	p1_porcentaje = (p1 / total_votos) * 100
+	p2_porcentaje = (p2 / total_votos) * 100
+	p3_porcentaje = (p3 / total_votos) * 100
+	p4_porcentaje = (p4 / total_votos) * 100
+	p5_porcentaje = (p5 / total_votos) * 100
+	indecisos_porcentaje = (indecisos / total_votos) * 100
 	
-	Escribir "El ",p1pond,"% corresponde al primer partido, el ",p2pond,"% corresponde al segundo, el ",p3pond,"% corresponde al tercero, el ",p4pond,"% corresponde al cuarto,  el ",p5pond,"% corresponde al quinto, el ",indecisospond,"% a los votos indecisos."	
+	Escribir "El ",p1_porcentaje,"% corresponde al primer partido.
+	Escribir "El ",p2_porcentaje,"% corresponde al segundo."
+	Escribir "El ",p3_porcentaje,"% corresponde al tercero."
+	Escribir "El ",p4_porcentaje,"% corresponde al cuarto."
+	Escribir "El ",p5_porcentaje,"% corresponde al quinto."
+	Escribir "El ",indecisos_porcentaje,"% a los votos indecisos."	
 FinAlgoritmo
