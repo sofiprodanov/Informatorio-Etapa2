@@ -61,3 +61,63 @@ while usuario != "Informatorio" and contrasenia != "Info2023":
     contrasenia = input("Ingresa la contraseña: ")
 else:
     print("Ingresaste correctamente. Bienvenido.")
+
+
+
+#POWERPOINT
+contador = 1
+while contador <= 5:
+    print(contador)
+    contador += 1
+
+
+#USO DE BREAK Y CONTINUE
+contador = 1
+while contador <= 5:
+    if contador == 3:
+        break
+    print(contador)
+    contador += 1
+
+contador = 1
+while contador <= 5:
+    contador += 1
+    if contador == 3:
+        continue
+    print(contador)
+
+#Bucle infinito
+while True:
+    respuesta = input("¿Quieres salir? 'si/no' ")
+    if respuesta == "si":
+        break
+
+
+#programa que pide al usuario un numero y calcula la suma de todos los numeros
+num = int(input("Ingresa un numero: "))
+i = 1
+suma = 0
+
+while i <= num:
+    suma += i
+    i += 1
+print("La suma de los numeros naturales del 1 hasta", num, "es:", sum)
+
+#programa que pode al usuario un nro e imprime la tabla de mutiplicar correspondiente a ese numero del 1 al 10
+num = int(input("Ingresa un numero: "))
+i = 1
+
+while i <= 10:
+    print(num, "x", i, "-", num*1)
+    i += 1
+
+#programa que pide al usuario una palabra e imprime la misma palabra pero con letras en orden inverso
+palabra = input("Ingresa una palabra: ")
+palabra_invertida = ""
+
+i = len(palabra) - 1
+
+while i >= 0:
+    palabra_invertida += palabra[i]
+    i -= 1
+print("La palabra invertida es: ", palabra_invertida)

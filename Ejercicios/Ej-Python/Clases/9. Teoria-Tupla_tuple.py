@@ -20,3 +20,10 @@ print(tupla3)
 tupla3 = ("pomelo", "melon", "kiwi")
 print(tupla3)
 
+
+#POWERPOINT
+tupla = ("Informatorio", "Chaco", 2030) #creando una tupla
+print(tupla[1]) #accediendo a un elemento de la tupla mediante indice
+tupla[1] = "Modificacion" #intentando modificar un elemento, arroja error.
+tupla = ("Cargando", "nuevos", "datos") #reemplazando los elementos
+print(tupla) #mostrando por consola
