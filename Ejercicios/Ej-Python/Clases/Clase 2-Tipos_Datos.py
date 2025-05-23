@@ -1,4 +1,4 @@
-edad = int(37) #int
+edad = int(27) #int
 print(f"Edad:{edad}, tipo:{type(edad)}")
 
 altura = 1.17 #float
