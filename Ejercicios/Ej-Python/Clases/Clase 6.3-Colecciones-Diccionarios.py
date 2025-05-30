@@ -49,3 +49,6 @@ calificaciones = {
 
 for materia, nota in calificaciones.items():
     print(materia, nota)
+
+
+#variable = xxx.get(clave) > si no existe el elemento en el diccionario, no tire error y de el valor por defecto (si se asigna). Si no tiene valor por defecto tira none.
