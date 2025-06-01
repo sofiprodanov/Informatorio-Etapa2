@@ -9,8 +9,10 @@ while True:
     valor = input(clave + ": ") #Se pide el valor asociado a esa clave
     persona[clave] = valor
     print(persona)
-    respuesta = input("Desea agregar una nuevo dato?si/no ")
+    respuesta = input("Desea agregar una nuevo dato?si/no ").lower()
     if respuesta == "no":
         break
 
 print(persona)
+
+#  respuesta = input("Desea agregar una nuevo dato?si/no ").lower() == "si"
