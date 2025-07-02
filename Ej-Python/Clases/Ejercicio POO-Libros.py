@@ -62,6 +62,7 @@ class Libroinfantil(Libro):
         super().__init__(self, edad, recomendada, ilustraciones)
         self.titulo = titulo
         self.autor = autor
+        self.edad = edad
         self.ISBN = ISBN
         self.__numero_paginas = numero_paginas
         self.genero = genero
