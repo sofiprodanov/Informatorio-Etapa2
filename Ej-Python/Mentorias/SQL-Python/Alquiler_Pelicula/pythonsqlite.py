@@ -140,7 +140,7 @@ def menu():
         elif opcion == "0":
             cerrar_conexion()
             break
-        # else:
-        #     print("Opción no válida, intente nuevamente.")
+        else:
+            print("Opción no válida, intente nuevamente.")
 
 menu()
